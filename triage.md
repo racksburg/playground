@@ -10,9 +10,9 @@ This is a text box
 
 + setup shared folders between host machine and vagrant guest machine [link](http://docs.vagrantup.com/v2/synced-folders/basic_usage.html)
 
++ Mac Open html file via command line: `$open -a Google\ Chrome <html_file_name>`
+
 + Markdown files example
-
-
     + Hyperlink: [Ruby](https://www.ruby-lang.org/en/)
     + Inline text box: `This is inline text box`
 
