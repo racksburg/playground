@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Input box and Validation</h1>
+
+<p>Enter a number between 1 and 10:</p>
+
+<input id="num" type="number">
+
+<button type="button" onclick="Validation()">
+    Submit
+</button>
+
+<p id="input_box"></p>
+
+<script>
+function Validation() {
+    var x, text;
+
+    // Get the value of the input field with id="num"
+    x = document.getElementById("num").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 10) {
+        text = "Input is not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("input_box").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
